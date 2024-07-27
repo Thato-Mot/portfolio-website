@@ -1,0 +1,71 @@
+#skills{
+  margin-top: 0vw;
+  display: flex;
+  flex: 1 1 1 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13vw;
+  padding: 1vw;
+  /* gap: 3vw; */
+  row-gap: 2vw;
+  column-gap: 2vw;
+}
+
+.skills{
+  display: block;
+  font-size: 12vw;
+  font-weight: 200;  
+  background: transparent;
+  text-align: left;
+  height: max-content;
+  color: var(--text-color);
+  text-shadow: -0.8vw 0.8vw 0.4vw var(--accent1);
+  font-family: Monday Champions, Painter Personal Use Only;
+  transform: rotate(-5deg);
+  position: absolute;
+  bottom: -14vw;
+  left: 2%;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.skills:hover{
+  text-shadow: 0vw 0vw 0.4vw var(--accent1);
+}
+
+.skillBox{
+  background-color: var(--text-color);
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 2vw;
+  width: 25vw;
+  height: 10vw;
+  color: black;
+  box-shadow: 0 0 1vw var(--accent1-glow);
+}
+.skill-title{
+  font-size: 2vw;
+  font-weight: bold;
+  position: relative;
+  display: inline;
+}
+
+.skill-title::after{
+  content: '';
+    width: 100%;
+    height: 3px;
+    background-color: var(--text-color2);
+    position: absolute;
+    top: 2.3vw;
+    left: 0vw;
+}
+
+.BoxSkill {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5vw;
+  margin-top: 2vw;
+}
