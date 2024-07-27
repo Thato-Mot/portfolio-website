@@ -42,7 +42,7 @@
   padding: 2vw;
   width: 40vw;
   height: 28vw;
-  color: black;
+  color: var(--text-color2);
   box-shadow: 0 0 1vw var(--accent1-glow);
   display: flex;
   flex-direction: row;
