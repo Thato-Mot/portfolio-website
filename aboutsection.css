@@ -60,7 +60,7 @@
   .aboutTopText span::after{
     content: '';
     width: 95%;
-    height: 30px;
+    height: clamp(5px, 3vw, 30px);
     background-color: var(--accent1);
     position: absolute;
     top: 90%;
