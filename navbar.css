@@ -21,12 +21,12 @@
     color: var(--text-color);
     position: relative;
     transition: color 200ms ease-in-out;
-    font-size: clamp(13px, 2.5vw, 35px);
+    font-size: clamp(13px, 2.5vw, 30px);
     font-weight: bold;
     margin: 0;
   }
   
-  .sec:hover, #name:hover{
+  .sec:hover, #name:hover, button:hover{
     color: var(--accent2);
   }
   
@@ -74,6 +74,7 @@
     font-family: Painter Personal Use Only;
     transform: rotate(-5deg);
     position: relative;
+    margin-left: 0.2vw;
 
   }
   
@@ -97,6 +98,31 @@
     to { width: 50% }
   }
   
+  button{
+    background: none;
+    color: var(--text-color);
+    font-family: Blissful Beauty Demo;
+    border: none;
+    font-size: clamp(13px, 2.5vw, 30px);
+    font-weight: bold;
+    transition: color 200ms ease-in-out;
+    position: relative;
+    cursor: pointer;
+    margin-right: 1vw;
+  }
+  button:hover::after, button:hover::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-image: radial-gradient(circle,  var(--text-color) 0%, var(--accent3) 50%);
+    z-index: 10;
+    background-size: 200% 100%; 
+    animation: navAnimation 3s linear infinite;
+    border-radius: 50%;
+  }
 
   }
   

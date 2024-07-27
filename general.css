@@ -1,125 +1,212 @@
-/* Colors: 
-background: rgb(45,28,32)
-
-rgb(93, 54,47) boma light brown
-rgb(69, 18, 21) boma light dark brown
-rgb(109,72,76) boma light light brown
-rgb(109,11,12) boma maroon
-rgb(110,69,121) boma purple
-
-old text color: rgb(221, 171, 172);
-
-*/
-
-/* Brown-Purple-Cream Color Palette */
-
-/* :root{
-  --background: rgb(45,28,32);
-  --background-gradient: rgb(45, 18, 25) ;
-
-  --text-color: rgb(240, 220, 210) ;
-  --text-color2: rgb(0, 0, 0);
-
-  --accent1: rgb(110,69,121);
-  --accent2: rgb(137, 90, 95);
-  --accent3: rgb(109,72,76);
-
-  --accent1-glow: rgba(122, 70, 182, 0.8);
-  
-  --navBar-angle: 90deg;
-} */
-
-/* Grey-Yellow-Blue Color Palette */
-
-/* :root{
-  --background: rgb(245, 245, 245); 
-  --background-gradient: rgb(240, 240, 240);
-
-  --text-color: rgb(25, 25, 112);
-  --text-color2: rgb(245, 245, 245);
-
-  --accent1: rgb(255, 215, 0); 
-  --accent2: rgb(220, 220, 220); 
-  --accent3: rgb(200, 200, 200); 
-
-  --accent1-glow: rgba(255, 215, 0, 0.8); 
-
-  --navBar-angle: 90deg; 
-} */
-
-/* Light Peach-Coral-Dark Teal */
-
-/* :root{
-  --background: rgb(255, 239, 213);
-  --background-gradient: rgb(255, 229, 193);
-
-  --text-color: rgb(0, 77, 77);
-  --text-color2: rgb(255, 239, 213);
-
-  --accent1: rgb(255, 127, 80);
-  --accent2: rgb(255, 160, 122);
-  --accent3: rgb(255, 182, 150);
-
-  --accent1-glow: rgba(255, 127, 80, 0.8);
-
-  --navBar-angle: 90deg;
-} */
-
-/* Mint Green-Turquoise-Charcoal */
-
-/* :root{
-  --background: rgb(224, 255, 235);
-  --background-gradient: rgb(210, 250, 220);
-
-  --text-color: rgb(54, 69, 79);
-  --text-color2: rgb(224, 255, 235);
-
-  --accent1: rgb(64, 224, 208);
-  --accent2: rgb(179, 241, 228);
-  --accent3: rgb(204, 255, 244);
-
-  --accent1-glow: rgba(64, 224, 208, 0.8);
-
-  --navBar-angle: 90deg;
-} */
-
-/* Beige-Burnt Orange-Dark Brown */
-
-/* :root{
-  --background: rgb(245, 245, 220);
-  --background-gradient: rgb(235, 235, 210);
-
-  --text-color: rgb(101, 67, 33);
-  --text-color2: rgb(245, 245, 220);
-
-  --accent1: rgb(205, 92, 92);
-  --accent2: rgb(222, 184, 135);
-  --accent3: rgb(210, 180, 140);
-
-  --accent1-glow: rgba(205, 92, 92, 0.8);
-
-  --navBar-angle: 90deg;
-} */
-
-/* Dark-Mint-White */
+/* Dark Charcoal-Burgundy-White ----- Default*/
 
 :root{
-  --background: rgb(18, 18, 18);
-  --background-gradient: rgb(28, 28, 28);
+  --background: rgb(26, 26, 26);
+  --background-gradient: rgb(34, 34, 34);
 
-  --text-color: rgb(255, 255, 255);
-  --text-color2: rgb(18, 18, 18);
+  --text-color: rgb(240, 240, 240);
+  --text-color2: rgb(26, 26, 26);
 
-  --accent1: rgb(62, 180, 137);
-  --accent2: rgb(45, 168, 130);
-  --accent3: rgb(35, 155, 120);
+  --accent1: rgb(128, 0, 32);
+  --accent2: rgb(150, 0, 38);
+  --accent3: rgb(180, 0, 45);
 
-  --accent1-glow: rgba(62, 180, 137, 0.8);
+  --accent1-glow: rgba(128, 0, 32, 0.8);
 
   --navBar-angle: 90deg;
 }
 
+/* Dark Mode with Mint Accent */
+[data-theme="mint"] {
+  --background: rgb(18, 18, 18);
+  --background-gradient: rgb(28, 28, 28);
+  --text-color: rgb(255, 255, 255);
+  --text-color2: rgb(18, 18, 18);
+  --accent1: rgb(62, 180, 137);
+  --accent2: rgb(45, 168, 130);
+  --accent3: rgb(35, 155, 120);
+  --accent1-glow: rgba(62, 180, 137, 0.8);
+}
 
+/* Dark Mode with Royal Blue Accent */
+[data-theme="blue"] {
+  --background: rgb(20, 20, 20);
+  --background-gradient: rgb(30, 30, 30);
+  --text-color: rgb(255, 255, 255);
+  --text-color2: rgb(20, 20, 20);
+  --accent1: rgb(65, 105, 225);
+  --accent2: rgb(50, 90, 200);
+  --accent3: rgb(40, 70, 180);
+  --accent1-glow: rgba(65, 105, 225, 0.8);
+}
+
+/* Dark Mode with Deep Burgundy Accent */
+[data-theme="burgundy"] {
+  --background: rgb(26, 26, 26);
+  --background-gradient: rgb(34, 34, 34);
+  --text-color: rgb(240, 240, 240);
+  --text-color2: rgb(26, 26, 26);
+  --accent1: rgb(128, 0, 32);
+  --accent2: rgb(150, 0, 38);
+  --accent3: rgb(180, 0, 45);
+  --accent1-glow: rgba(128, 0, 32, 0.8);
+}
+
+/* Light Mode with Soft Blue Accent */
+[data-theme="light"] {
+  --background: rgb(255, 255, 255);
+  --background-gradient: rgb(240, 240, 240);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(255, 255, 255);
+  --accent1: rgb(100, 149, 237);
+  --accent2: rgb(70, 130, 180);
+  --accent3: rgb(0, 191, 255);
+  --accent1-glow: rgba(100, 149, 237, 0.8);
+}
+/* Dark Mode with Teal Accent */
+[data-theme="teal"] {
+  --background: rgb(34, 34, 34);
+  --background-gradient: rgb(45, 45, 45);
+  --text-color: rgb(255, 255, 255);
+  --text-color2: rgb(34, 34, 34);
+  --accent1: rgb(0, 128, 128);
+  --accent2: rgb(0, 102, 102);
+  --accent3: rgb(0, 76, 76);
+  --accent1-glow: rgba(0, 128, 128, 0.8);
+}
+
+/* Dark Mode with Purple Accent */
+[data-theme="purple"] {
+  --background: rgb(30, 30, 30);
+  --background-gradient: rgb(40, 40, 40);
+  --text-color: rgb(255, 255, 255);
+  --text-color2: rgb(30, 30, 30);
+  --accent1: rgb(128, 0, 128);
+  --accent2: rgb(102, 0, 102);
+  --accent3: rgb(76, 0, 76);
+  --accent1-glow: rgba(128, 0, 128, 0.8);
+}
+
+/* Dark Mode with Deep Green Accent */
+[data-theme="green"] {
+  --background: rgb(20, 20, 20);
+  --background-gradient: rgb(30, 30, 30);
+  --text-color: rgb(255, 255, 255);
+  --text-color2: rgb(20, 20, 20);
+  --accent1: rgb(0, 128, 0);
+  --accent2: rgb(0, 102, 0);
+  --accent3: rgb(0, 76, 0);
+  --accent1-glow: rgba(0, 128, 0, 0.8);
+}
+
+/* Light Mode with Soft Pink Accent */
+[data-theme="pink"] {
+  --background: rgb(255, 240, 245);
+  --background-gradient: rgb(255, 230, 240);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(255, 240, 245);
+  --accent1: rgb(255, 105, 180);
+  --accent2: rgb(255, 20, 147);
+  --accent3: rgb(255, 182, 193);
+  --accent1-glow: rgba(255, 105, 180, 0.8);
+}
+
+/* Light Mode with Warm Orange Accent */
+[data-theme="orange"] {
+  --background: rgb(255, 250, 240);
+  --background-gradient: rgb(255, 240, 220);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(255, 250, 240);
+  --accent1: rgb(255, 140, 0);
+  --accent2: rgb(255, 165, 0);
+  --accent3: rgb(255, 69, 0);
+  --accent1-glow: rgba(255, 140, 0, 0.8);
+}
+
+/* Light Mode with Fresh Green Accent */
+[data-theme="fresh-green"] {
+  --background: rgb(240, 255, 240);
+  --background-gradient: rgb(220, 255, 220);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(240, 255, 240);
+  --accent1: rgb(0, 255, 0);
+  --accent2: rgb(50, 205, 50);
+  --accent3: rgb(34, 139, 34);
+  --accent1-glow: rgba(0, 255, 0, 0.8);
+}
+
+
+/* Colorful Theme with Bright Red Accent */
+[data-theme="red"] {
+  --background: rgb(255, 235, 230);
+  --background-gradient: rgb(255, 200, 195);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(255, 235, 230);
+  --accent1: rgb(255, 0, 0);
+  --accent2: rgb(200, 0, 0);
+  --accent3: rgb(150, 0, 0);
+  --accent1-glow: rgba(255, 0, 0, 0.8);
+}
+
+/* Colorful Theme with Electric Blue Accent */
+[data-theme="electric-blue"] {
+  --background: rgb(230, 240, 255);
+  --background-gradient: rgb(200, 220, 255);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(230, 240, 255);
+  --accent1: rgb(0, 255, 255);
+  --accent2: rgb(0, 200, 200);
+  --accent3: rgb(0, 150, 150);
+  --accent1-glow: rgba(0, 255, 255, 0.8);
+}
+
+/* Colorful Theme with Vibrant Purple Accent */
+[data-theme="vibrant-purple"] {
+  --background: rgb(240, 230, 250);
+  --background-gradient: rgb(220, 210, 250);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(240, 230, 250);
+  --accent1: rgb(138, 43, 226);
+  --accent2: rgb(100, 0, 200);
+  --accent3: rgb(70, 0, 150);
+  --accent1-glow: rgba(138, 43, 226, 0.8);
+}
+
+/* Colorful Theme with Sunny Yellow Accent */
+[data-theme="yellow"] {
+  --background: rgb(255, 255, 200);
+  --background-gradient: rgb(255, 255, 180);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(255, 255, 200);
+  --accent1: rgb(255, 255, 0);
+  --accent2: rgb(200, 200, 0);
+  --accent3: rgb(150, 150, 0);
+  --accent1-glow: rgba(255, 255, 0, 0.8);
+}
+
+/* Colorful Theme with Cool Cyan Accent */
+[data-theme="cyan"] {
+  --background: rgb(240, 255, 255);
+  --background-gradient: rgb(220, 240, 250);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(240, 255, 255);
+  --accent1: rgb(0, 255, 255);
+  --accent2: rgb(0, 200, 200);
+  --accent3: rgb(0, 150, 150);
+  --accent1-glow: rgba(0, 255, 255, 0.8);
+}
+
+/* Colorful Theme with Lively Green Accent */
+[data-theme="lively-green"] {
+  --background: rgb(220, 255, 220);
+  --background-gradient: rgb(200, 240, 200);
+  --text-color: rgb(30, 30, 30);
+  --text-color2: rgb(220, 255, 220);
+  --accent1: rgb(0, 255, 0);
+  --accent2: rgb(0, 200, 0);
+  --accent3: rgb(0, 150, 0);
+  --accent1-glow: rgba(0, 255, 0, 0.8);
+}
 
 
 
