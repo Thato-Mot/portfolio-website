@@ -228,15 +228,15 @@ body{
 
 @media (min-width: 1000px){
 
-/* #cursor{
-  position: absolute;
+#cursor{
+  position: fixed;
   width: 60vw;
   height: 60vw;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(88, 42, 45, 0.7) 0%,rgba(118, 56, 60, 0.3) 20%, rgba(57, 36, 41, 0) 50%);
   pointer-events: none;
   z-index: -100;
-} */
+}
 
 }
 
