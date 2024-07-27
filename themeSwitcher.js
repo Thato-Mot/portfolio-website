@@ -1,8 +1,6 @@
-// Array of theme names
-// Array of theme names, including the new themes
 // Array of theme names, including the new colorful themes
 const themes = [
-  'burgundy','mint', 'blue', 'light', 
+  'burgundy', 'mint', 'blue', 'light', 
   'teal', 'purple', 'green', 'pink', 
   'orange', 'fresh-green', 
   'red', 'electric-blue', 'vibrant-purple', 
@@ -22,11 +20,33 @@ function switchTheme() {
   localStorage.setItem('theme', newTheme); // Save the new theme to localStorage
 }
 
-// Load the saved theme on page load
-document.addEventListener('DOMContentLoaded', () => {
-  const savedTheme = localStorage.getItem('theme') || 'burgundy'; // Default to 'mint'
+// Function to reset to the default theme
+function resetToDefaultTheme() {
+  const defaultTheme = 'burgundy'; // Set your default theme here
+  currentIndex = themes.indexOf(defaultTheme); // Find the index of the default theme
+  document.documentElement.setAttribute('data-theme', defaultTheme);
+  localStorage.setItem('theme', defaultTheme); // Save the default theme to localStorage
+}
+
+// Function to initialize the theme based on saved preference
+function initializeTheme() {
+  const savedTheme = localStorage.getItem('theme') || 'burgundy'; // Default to 'burgundy'
   currentIndex = themes.indexOf(savedTheme); // Set the current index based on saved theme
   document.documentElement.setAttribute('data-theme', savedTheme);
+}
+
+// Event listener for keypress to toggle theme with 'T' key and reset with 'D' key
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'T' || event.key === 't') { // Check if the pressed key is 'T'
+    switchTheme();
+  } else if (event.key === 'D' || event.key === 'd') { // Check if the pressed key is 'D'
+    resetToDefaultTheme();
+  }
+});
+
+// Load the saved theme on page load
+document.addEventListener('DOMContentLoaded', () => {
+  initializeTheme();
 
   // Add event listener to the theme switch button
   const themeSwitcherButton = document.getElementById('theme-switcher');

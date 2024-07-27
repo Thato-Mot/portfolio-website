@@ -1,18 +1,15 @@
-/* Dark Charcoal-Burgundy-White ----- Default*/
-
-:root{
+:root {
+  /* Default Dark Charcoal-Burgundy-White ----- Default*/
   --background: rgb(26, 26, 26);
   --background-gradient: rgb(34, 34, 34);
-
   --text-color: rgb(240, 240, 240);
   --text-color2: rgb(26, 26, 26);
-
   --accent1: rgb(128, 0, 32);
   --accent2: rgb(150, 0, 38);
   --accent3: rgb(180, 0, 45);
-
   --accent1-glow: rgba(128, 0, 32, 0.8);
-
+  --cursor-gradient-start: rgba(128, 0, 32, 0.5); /* Light shade of accent1 */
+  --cursor-gradient-end: rgba(128, 0, 32, 0.1);   /* More transparent */
   --navBar-angle: 90deg;
 }
 
@@ -26,6 +23,8 @@
   --accent2: rgb(45, 168, 130);
   --accent3: rgb(35, 155, 120);
   --accent1-glow: rgba(62, 180, 137, 0.8);
+  --cursor-gradient-start: rgba(62, 180, 137, 0.5); /* Light mint shade */
+  --cursor-gradient-end: rgba(62, 180, 137, 0.1);
 }
 
 /* Dark Mode with Royal Blue Accent */
@@ -38,6 +37,8 @@
   --accent2: rgb(50, 90, 200);
   --accent3: rgb(40, 70, 180);
   --accent1-glow: rgba(65, 105, 225, 0.8);
+  --cursor-gradient-start: rgba(65, 105, 225, 0.5); /* Light blue shade */
+  --cursor-gradient-end: rgba(65, 105, 225, 0.1);
 }
 
 /* Dark Mode with Deep Burgundy Accent */
@@ -50,6 +51,8 @@
   --accent2: rgb(150, 0, 38);
   --accent3: rgb(180, 0, 45);
   --accent1-glow: rgba(128, 0, 32, 0.8);
+  --cursor-gradient-start: rgba(128, 0, 32, 0.5); /* Same as default */
+  --cursor-gradient-end: rgba(128, 0, 32, 0.1);
 }
 
 /* Light Mode with Soft Blue Accent */
@@ -62,7 +65,10 @@
   --accent2: rgb(70, 130, 180);
   --accent3: rgb(0, 191, 255);
   --accent1-glow: rgba(100, 149, 237, 0.8);
+  --cursor-gradient-start: rgba(100, 149, 237, 0.5); /* Light blue shade */
+  --cursor-gradient-end: rgba(100, 149, 237, 0.1);
 }
+
 /* Dark Mode with Teal Accent */
 [data-theme="teal"] {
   --background: rgb(34, 34, 34);
@@ -73,6 +79,8 @@
   --accent2: rgb(0, 102, 102);
   --accent3: rgb(0, 76, 76);
   --accent1-glow: rgba(0, 128, 128, 0.8);
+  --cursor-gradient-start: rgba(0, 128, 128, 0.5); /* Light teal shade */
+  --cursor-gradient-end: rgba(0, 128, 128, 0.1);
 }
 
 /* Dark Mode with Purple Accent */
@@ -85,6 +93,8 @@
   --accent2: rgb(102, 0, 102);
   --accent3: rgb(76, 0, 76);
   --accent1-glow: rgba(128, 0, 128, 0.8);
+  --cursor-gradient-start: rgba(128, 0, 128, 0.5); /* Light purple shade */
+  --cursor-gradient-end: rgba(128, 0, 128, 0.1);
 }
 
 /* Dark Mode with Deep Green Accent */
@@ -97,6 +107,8 @@
   --accent2: rgb(0, 102, 0);
   --accent3: rgb(0, 76, 0);
   --accent1-glow: rgba(0, 128, 0, 0.8);
+  --cursor-gradient-start: rgba(0, 128, 0, 0.5); /* Light green shade */
+  --cursor-gradient-end: rgba(0, 128, 0, 0.1);
 }
 
 /* Light Mode with Soft Pink Accent */
@@ -109,6 +121,8 @@
   --accent2: rgb(255, 20, 147);
   --accent3: rgb(255, 182, 193);
   --accent1-glow: rgba(255, 105, 180, 0.8);
+  --cursor-gradient-start: rgba(255, 105, 180, 0.5); /* Light pink shade */
+  --cursor-gradient-end: rgba(255, 105, 180, 0.1);
 }
 
 /* Light Mode with Warm Orange Accent */
@@ -121,6 +135,8 @@
   --accent2: rgb(255, 165, 0);
   --accent3: rgb(255, 69, 0);
   --accent1-glow: rgba(255, 140, 0, 0.8);
+  --cursor-gradient-start: rgba(255, 140, 0, 0.5); /* Light orange shade */
+  --cursor-gradient-end: rgba(255, 140, 0, 0.1);
 }
 
 /* Light Mode with Fresh Green Accent */
@@ -133,80 +149,107 @@
   --accent2: rgb(50, 205, 50);
   --accent3: rgb(34, 139, 34);
   --accent1-glow: rgba(0, 255, 0, 0.8);
+  --cursor-gradient-start: rgba(0, 255, 0, 0.5); /* Light green shade */
+  --cursor-gradient-end: rgba(0, 255, 0, 0.1);
 }
-
 
 /* Colorful Theme with Bright Red Accent */
 [data-theme="red"] {
-  --background: rgb(255, 235, 230);
-  --background-gradient: rgb(255, 200, 195);
+  --background: rgb(255, 240, 240);
+  --background-gradient: rgb(255, 220, 220);
   --text-color: rgb(30, 30, 30);
-  --text-color2: rgb(255, 235, 230);
+  --text-color2: rgb(255, 240, 240);
   --accent1: rgb(255, 0, 0);
   --accent2: rgb(200, 0, 0);
-  --accent3: rgb(150, 0, 0);
+  --accent3: rgb(139, 0, 0);
   --accent1-glow: rgba(255, 0, 0, 0.8);
+  --cursor-gradient-start: rgba(255, 0, 0, 0.5); /* Light red shade */
+  --cursor-gradient-end: rgba(255, 0, 0, 0.1);
 }
 
 /* Colorful Theme with Electric Blue Accent */
 [data-theme="electric-blue"] {
-  --background: rgb(230, 240, 255);
-  --background-gradient: rgb(200, 220, 255);
+  --background: rgb(240, 248, 255);
+  --background-gradient: rgb(220, 230, 250);
   --text-color: rgb(30, 30, 30);
-  --text-color2: rgb(230, 240, 255);
+  --text-color2: rgb(240, 248, 255);
   --accent1: rgb(0, 255, 255);
-  --accent2: rgb(0, 200, 200);
-  --accent3: rgb(0, 150, 150);
+  --accent2: rgb(0, 204, 204);
+  --accent3: rgb(0, 153, 153);
   --accent1-glow: rgba(0, 255, 255, 0.8);
+  --cursor-gradient-start: rgba(0, 255, 255, 0.5); /* Light cyan shade */
+  --cursor-gradient-end: rgba(0, 255, 255, 0.1);
 }
 
 /* Colorful Theme with Vibrant Purple Accent */
 [data-theme="vibrant-purple"] {
   --background: rgb(240, 230, 250);
-  --background-gradient: rgb(220, 210, 250);
+  --background-gradient: rgb(230, 220, 255);
   --text-color: rgb(30, 30, 30);
   --text-color2: rgb(240, 230, 250);
   --accent1: rgb(138, 43, 226);
-  --accent2: rgb(100, 0, 200);
-  --accent3: rgb(70, 0, 150);
+  --accent2: rgb(123, 104, 238);
+  --accent3: rgb(75, 0, 130);
   --accent1-glow: rgba(138, 43, 226, 0.8);
+  --cursor-gradient-start: rgba(138, 43, 226, 0.5); /* Light purple shade */
+  --cursor-gradient-end: rgba(138, 43, 226, 0.1);
 }
 
 /* Colorful Theme with Sunny Yellow Accent */
 [data-theme="yellow"] {
-  --background: rgb(255, 255, 200);
-  --background-gradient: rgb(255, 255, 180);
+  --background: rgb(255, 255, 224);
+  --background-gradient: rgb(255, 255, 192);
   --text-color: rgb(30, 30, 30);
-  --text-color2: rgb(255, 255, 200);
+  --text-color2: rgb(255, 255, 224);
   --accent1: rgb(255, 255, 0);
-  --accent2: rgb(200, 200, 0);
-  --accent3: rgb(150, 150, 0);
+  --accent2: rgb(255, 255, 128);
+  --accent3: rgb(255, 255, 224);
   --accent1-glow: rgba(255, 255, 0, 0.8);
+  --cursor-gradient-start: rgba(255, 255, 0, 0.5); /* Light yellow shade */
+  --cursor-gradient-end: rgba(255, 255, 0, 0.1);
 }
 
 /* Colorful Theme with Cool Cyan Accent */
 [data-theme="cyan"] {
-  --background: rgb(240, 255, 255);
-  --background-gradient: rgb(220, 240, 250);
+  --background: rgb(224, 255, 255);
+  --background-gradient: rgb(192, 255, 255);
   --text-color: rgb(30, 30, 30);
-  --text-color2: rgb(240, 255, 255);
+  --text-color2: rgb(224, 255, 255);
   --accent1: rgb(0, 255, 255);
-  --accent2: rgb(0, 200, 200);
-  --accent3: rgb(0, 150, 150);
+  --accent2: rgb(0, 204, 204);
+  --accent3: rgb(0, 153, 153);
   --accent1-glow: rgba(0, 255, 255, 0.8);
+  --cursor-gradient-start: rgba(0, 255, 255, 0.5); /* Light cyan shade */
+  --cursor-gradient-end: rgba(0, 255, 255, 0.1);
 }
 
 /* Colorful Theme with Lively Green Accent */
 [data-theme="lively-green"] {
-  --background: rgb(220, 255, 220);
-  --background-gradient: rgb(200, 240, 200);
+  --background: rgb(240, 255, 240);
+  --background-gradient: rgb(220, 255, 220);
   --text-color: rgb(30, 30, 30);
-  --text-color2: rgb(220, 255, 220);
+  --text-color2: rgb(240, 255, 240);
   --accent1: rgb(0, 255, 0);
-  --accent2: rgb(0, 200, 0);
-  --accent3: rgb(0, 150, 0);
+  --accent2: rgb(50, 205, 50);
+  --accent3: rgb(34, 139, 34);
   --accent1-glow: rgba(0, 255, 0, 0.8);
+  --cursor-gradient-start: rgba(0, 255, 0, 0.5); /* Light green shade */
+  --cursor-gradient-end: rgba(0, 255, 0, 0.1);
 }
+
+#cursor {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle, 
+              var(--cursor-gradient-start) 0%, 
+              var(--cursor-gradient-end) 20%, 
+              transparent 50%);
+  pointer-events: none;
+  z-index: 9999;
+}
+
 
 
 
@@ -226,6 +269,7 @@ body{
   position: relative;
 }
 
+
 @media (min-width: 1000px){
 
 #cursor{
@@ -233,7 +277,10 @@ body{
   width: 60vw;
   height: 60vw;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(88, 42, 45, 0.7) 0%,rgba(118, 56, 60, 0.3) 20%, rgba(57, 36, 41, 0) 50%);
+  background: radial-gradient(circle, 
+  var(--cursor-gradient-start) 0%, 
+  var(--cursor-gradient-end) 20%, 
+  transparent 50%);
   pointer-events: none;
   z-index: -100;
 }
