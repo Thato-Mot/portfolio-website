@@ -241,8 +241,72 @@
 
 }
 
-@media (min-width: 768px){
+@media (max-width: 700px){
+  #projects{  
+    margin-top: 22vw;
+  }
+  .projects {
+    font-size: 13vw;
+    font-weight: 200;  
+    bottom: -18vw;
+    left: 5%;
+    transition: text-shadow 0.3s ease-in-out;
+  }
+
+  .boxProj{
+    width: 85vw;
+    height: 75vw;
+  }
+
+  .projImageBox img {
+    box-shadow: 0 0 0.5vw var(--accent1-glow);
+    margin-top: 2vw;
+  }
+  .projInfo{
+    width: 120%;
+    margin-left: 3%;
+    margin-top: 1vw;
+  }
+  .projTitle {
+    font-size: 4.3vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+  }
   
+  .projCompany{
+    font-size: 3vw;
+    font-style: italic;
+    margin-bottom: 1vw;
+  }
+  
+  .projDesc{
+    font-size: 2.6vw;
+  }
+
+  .ProjSkillset{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 2.8vw;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.1vw 0.5vw;
+    position: absolute;
+    top: 74%;
+    left: 7.7%;
+  }
+
+  .trap{
+    top: 75%;
+    left: 6.3%;
+  }
+
+  .contact{
+    font-size: 13vw;
+    width: 50%;
+    margin-left: 2vw;
+  }
 }
 
 @media (min-width: 500px){

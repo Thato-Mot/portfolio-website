@@ -144,11 +144,34 @@
 
 }
 
-@media (min-width: 768px){
+@media (max-width: 1010px){
+  #nav-bar{
+    margin-bottom: 5vw;
+  }
   
+  button, .sec{
+    display: none;
+  }
+
+  #name{
+    margin: auto;
+    width: max-content;
+    font-size: 8vw;
+    transform: rotate(-2deg);
+    margin-top: -1vw;
+  }
+  #name:hover::after, #name:hover::before{
+    display: none;
+  }
 }
 
-@media (min-width: 500px){
-  
+@media (max-width: 700px){
+  #nav-bar{
+    margin-bottom: 0vw;
+  }
+  #name{
+    font-size: 9vw;
+    
+  }
 }
   

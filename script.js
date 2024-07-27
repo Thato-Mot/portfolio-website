@@ -20,7 +20,7 @@ document.addEventListener('mousemove', (e) => {
   const cursorWidth = cursor.offsetWidth / 2;
   const cursorHeight = cursor.offsetHeight / 2;
 
-  console.log(e)
+  // console.log(e)
 
   let x = e.clientX - cursorWidth;
   let y = e.clientY - cursorHeight;
