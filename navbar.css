@@ -1,0 +1,103 @@
+
+@media (min-width: 1000px){
+
+  #nav-bar{
+    /* border: 2px solid rgba(255, 255, 255); */
+    padding: 0.5vw 1vw;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  .sec {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    position: relative;
+    transition: color 200ms ease-in-out;
+    font-size: clamp(13px, 2.5vw, 35px);
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .sec:hover, #name:hover{
+    color: var(--accent2);
+  }
+  
+  .sec:hover::after, .sec:hover::before, #name:hover::after, #name:hover::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-image: radial-gradient(circle,  var(--text-color) 0%, var(--accent3) 50%);
+    z-index: 10;
+    background-size: 200% 100%; 
+    animation: navAnimation 3s linear infinite;
+    border-radius: 50%;
+  }
+  
+  
+  @keyframes navAnimation {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  
+  #name {
+    font-size: clamp(20px, 5vw, 80px);
+    /* font-weight: bold; */
+    margin: 0;
+    margin-top: 1vw;
+    text-align: left;
+    overflow: hidden; /* Ensures that the text doesn't overflow */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    animation: typing 2s steps(200, end);
+    width: 50%;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 200ms ease-in-out;
+    font-family: Painter Personal Use Only;
+    transform: rotate(-5deg);
+    position: relative;
+
+  }
+  
+
+  #name:hover::after, #name:hover::before{
+    content: '';
+    position: absolute;
+    bottom: 0.2vw;
+    left: -1vw;
+    width: 85%;
+    height: 5px;
+    background-image: radial-gradient(circle,  var(--text-color) 0%, var(--accent3) 50%);
+    z-index: 10;
+    background-size: 200% 100%; 
+    animation: navAnimation 3s linear infinite;
+    border-radius: 50%;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+
+  }
+  
+  

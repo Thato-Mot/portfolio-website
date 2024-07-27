@@ -1,0 +1,46 @@
+#projects{  
+  position: relative;
+  margin-top: 10.3vw;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  padding: 2vw;
+}
+
+.projects {
+  display: block;
+  font-size: 12vw;
+  font-weight: 200;  
+  background: transparent;
+  text-align: left;
+  height: max-content;
+  color: var(--text-color);
+  text-shadow: -0.8vw 0.8vw 0.4vw var(--accent1);
+  font-family: Monday Champions, Painter Personal Use Only;
+  transform: rotate(-5deg);
+  position: absolute;
+  bottom: -15vw;
+  left: 2%;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.projects:hover{
+  text-shadow: 0vw 0vw 0.4vw var(--accent1);
+}
+
+.boxProj{
+  /* border: 1px solid yellow; */
+  background-color: var(--text-color);
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 2vw;
+  width: 40vw;
+  height: 22vw;
+  color: black;
+  box-shadow: 0 0 1vw var(--accent1-glow);
+}
+
