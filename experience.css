@@ -371,7 +371,10 @@
   
 }
 
-@media (min-width: 500px){
-  
+@media (max-width: 400px){
+  .skill{
+    font-size: 2.5vw;
+
+  }
 }
 
