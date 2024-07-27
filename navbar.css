@@ -1,6 +1,4 @@
 
-@media (min-width: 1000px){
-
   #nav-bar{
     /* border: 2px solid rgba(255, 255, 255); */
     padding: 0.5vw 1vw;
@@ -124,6 +122,33 @@
     border-radius: 50%;
   }
 
+@media (max-width: 1010px){
+  #nav-bar{
+    margin-bottom: 8vw;
   }
   
+  button, .sec{
+    display: none;
+  }
+
+  #name{
+    margin: auto;
+    width: max-content;
+    font-size: 8vw;
+    transform: rotate(-2deg);
+    margin-top: -1vw;
+  }
+  #name:hover::after, #name:hover::before{
+    display: none;
+  }
+
+}
+
+@media (min-width: 768px){
+  
+}
+
+@media (min-width: 500px){
+  
+}
   

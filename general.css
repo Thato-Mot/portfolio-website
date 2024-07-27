@@ -284,20 +284,25 @@ body{
   pointer-events: none;
   z-index: -100;
 }
-
-}
-
-@media (max-width: 1000px) {
-  
-}
-
 main {
-  /* border: 2px var(--text-color) solid; */
-  border-radius: 10px;
   width: 98%;
-  /* height: 300%; */
-  
   margin: auto;
-  margin-top: 43px;
+  margin-top: 2vw;
 
 }
+
+}
+
+@media (max-width: 1010px) {
+  main {
+    width: 98%;
+    margin: auto;
+    margin-top: 4vw;
+  
+  }
+
+  #cursor{
+    display: none;
+  }
+}
+

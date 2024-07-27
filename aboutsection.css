@@ -1,7 +1,3 @@
-@media (min-width: 1000px){
-
-
-
   #about {
     border: none;
     display: flex;
@@ -161,11 +157,90 @@
     text-shadow: 0vw 0vw 0.4vw var(--accent1);
   }
 
+  @media (min-width: 1010px){
 
-
-  
-  
-  
   }
+  
+  @media (max-width: 1000px){
+    .aboutimage{
+      /* border: yellow solid 1px; */
+      width: 40vw;
+      height: 40vw;
+      position: absolute;
+      top: 0vw;
+      right: 1vw;
+    }
+    .aboutTopText{
+      /* border: 1px solid yellow;; */
+      position: absolute;
+      font-size: 4vw;
+      top: 0;
+      width: 41vw;
+      height: max-content;
+      left: 7%;
+    }
+    .aboutMe {
+      position: absolute;
+      font-size: 13vw;
+      top: 25%;
+      width: 41vw;
+      height: max-content;
+      left: 6%;
+    }
+    .aboutAbout{
+      position: absolute;
+      top: 45%;
+      left:2%;
+      padding: 1vw;
+      font-size: 3vw;
+      text-align: left;
+      top: 45%;
+      width: 94%;
+      height: max-content;
+      color: var(--text-color);
+      font-weight: 100;
+    }
+    .aboutAbout .greeting{
+      font-size: 8vw;
+      font-weight: 100;
+      transform: rotate(-5deg);
+      position: relative;
+      top: -4vw;
+    }
+  
+    .aboutAbout .lebitso{
+      display: block;
+      font-size: 5vw;
+      position: relative;
+      top: -1.5vw;
+      
+    }
+  
+    .aboutAbout .lebitso::after{
+      width: 58%;
+      height: 2px;
+      background-color: var(--text-color);
+      position: absolute;
+      top: 5.5vw;
+      left: 0vw;
+    }
+    .experience {
+      font-size: 13vw;
+      height: max-content;
+      position: absolute;
+      bottom: -8%;
+      left: 6%;
+      transition: text-shadow 0.3s ease-in-out;
+    }
+
+    
+  }
+  
+  @media (min-width: 500px){
+    
+  }
+
+  
+  
   
   

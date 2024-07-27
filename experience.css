@@ -33,9 +33,6 @@
   font-weight: bold;
 }
 
-
-
-
 .boxTitle{
   display: block;
   font-size: 3vw;
@@ -130,3 +127,136 @@
   left: 1.5vw;
   
 }
+
+@media (max-width: 1010px){
+  #experience {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 2vw;
+    position: relative;
+    top: 6vw;
+  }
+  .boxExp{
+    padding: 2vw;
+    width: 70vw;
+    height: 43vw;
+    box-shadow: 0 0 2vw var(--accent1-glow);
+    position: relative;
+  }
+  .tutoring{
+    height: max-content;
+  }
+
+  .tutoring .boxTitle::after{
+    content: '';
+    width: 80%;
+    height: 2px;
+    background-color: var(--text-color2);
+    position: absolute;
+    top: 6vw;
+    left: 10%;
+
+  }
+
+
+  .boxTitle{
+    font-size: 5vw;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 2vw;
+  }
+
+  .boxTitle::after{
+    content: '';
+    width: 61%;
+    height: 2px;
+    position: absolute;
+    top: 11vw;
+    left: 20%;
+  }
+
+  .boxCompany{
+    font-size: 2.5vw;
+    margin-bottom: 0.7vw;
+    text-align: center;
+  }
+  
+  .boxPeriod{
+    font-size: 2.3vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .boxDesc{
+    position: relative;
+    margin-top: 1.2vw;
+    font-size: 3vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .boxDesc::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--text-color2);
+    position: absolute;
+    top: -0.75vw;
+    left: 0vw;
+  }
+
+  .skillset {
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 4vw;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.2vw 1vw;
+  }
+  
+  .skill{
+    font-size: 2.6vw;
+    font-weight: bold;
+    padding: 0.2vw 1vw;
+    border-radius: 5px;
+  }
+
+  .boxLogo {
+    position: absolute;
+    bottom: 2.5vw;
+    left: 2.5vw;
+    width: 4.3vw;
+    height: 4.3vw;
+  }
+  
+  .boxLogo img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
+  
+  .Mizana {
+    width: 9vw;
+    height: 6vw;
+    position: absolute;
+    bottom: 0vw;
+    left: 3vw;
+    
+  }
+  
+
+
+
+
+}
+
+@media (min-width: 768px){
+  
+}
+
+@media (min-width: 500px){
+  
+}
+
