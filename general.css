@@ -1,3 +1,19 @@
+/* Fonts */
+
+@font-face {
+  font-family: Blissfull Beauty Demo;
+  src: url(fonts/Blissfull\ Beauty\ Demo.otf);
+}
+@font-face {
+  font-family: Monday Champions;
+  src: url(fonts/Monday\ Champions.otf);
+}
+@font-face {
+  font-family: Painter Personal Use Only;
+  src: url(fonts/Painter_PERSONAL_USE_ONLY.ttf);
+}
+
+
 :root {
   /* Default Dark Charcoal-Burgundy-White ----- Default*/
   --background: rgb(26, 26, 26);
