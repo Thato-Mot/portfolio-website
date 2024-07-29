@@ -10,7 +10,7 @@
 }
 
 @font-face {
-  font-family: Blissful Beauty Demo;
+  font-family: Blissful;
   src: url(fonts/Blissful.otf);
 }
 
@@ -281,7 +281,7 @@ body{
   cursor: auto; 
   overflow-x: hidden;
   color: var(--text-color);
-  font-family: Blissful Beauty Demo;
+  font-family: Blissful;
   background-attachment: fixed;
   position: relative;
 }

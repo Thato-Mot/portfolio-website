@@ -99,7 +99,7 @@
   button{
     background: none;
     color: var(--text-color);
-    font-family: Blissful Beauty Demo;
+    font-family: Blissful;
     border: none;
     font-size: clamp(13px, 1.6vw, 25px);
     font-weight: bold;
