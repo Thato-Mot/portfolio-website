@@ -147,7 +147,7 @@
     font-family: Monday Champions, Painter Personal Use Only;
     transform: rotate(-5deg);
     position: absolute;
-    bottom: 0%;
+    bottom: 1%;
     left: 2%;
     transition: text-shadow 0.3s ease-in-out;
   }
@@ -224,7 +224,7 @@
       font-size: 13vw;
       height: max-content;
       position: absolute;
-      bottom: -8%;
+      bottom: -6%;
       left: 6%;
       transition: text-shadow 0.3s ease-in-out;
     }
@@ -266,13 +266,13 @@
     .aboutAbout{
       position: absolute;
       top: 50%;
-      left: 1.7%;
-      padding: 1vw;
+      padding: 2vw;
       font-size: 3.2vw;
       text-align: left;
-      width: 98%;
+      width: 86vw;
       font-weight: 100;
-    }
+      left: 2.5%;
+      }
     .aboutAbout .greeting{
       font-size: 8vw;
       font-weight: 100;
@@ -290,7 +290,7 @@
     }
   
     .aboutAbout .lebitso::after{
-      width: 58%;
+      width: 62%;
       height: 2px;
       background-color: var(--text-color);
       position: absolute;
@@ -301,7 +301,7 @@
       font-size: 13vw;
       height: max-content;
       position: absolute;
-      bottom: -14.5%;
+      bottom: -18.5%;
       left: 6%;
     }
   }
@@ -311,7 +311,7 @@
       font-size: 13vw;
       height: max-content;
       position: absolute;
-      bottom: -15%;
+      bottom: -20%;
       left: 6%;
     }
     .aboutMe {
