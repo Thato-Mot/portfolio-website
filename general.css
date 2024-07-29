@@ -1,16 +1,17 @@
 /* Fonts */
 
 @font-face {
-  font-family: Blissful Beauty Demo;
-  src: url(fonts/Blissful.otf);
-}
-@font-face {
   font-family: Monday Champions;
   src: url(fonts/Monday\ Champions.otf);
 }
 @font-face {
   font-family: Painter Personal Use Only;
   src: url(fonts/Painter_PERSONAL_USE_ONLY.ttf);
+}
+
+@font-face {
+  font-family: Blissful Beauty Demo;
+  src: url(fonts/Blissful.otf);
 }
 
 
