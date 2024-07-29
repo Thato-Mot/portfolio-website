@@ -8,7 +8,7 @@ function typeText() {
   if (index < textToType.length) {
     textElement.textContent += textToType.charAt(index);
     index++;
-    setTimeout(typeText, 100); // Adjust speed as needed
+    setTimeout(typeText, 110); // Adjust speed as needed
   }
 }
 

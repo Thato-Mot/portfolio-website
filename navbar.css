@@ -87,7 +87,7 @@
     background-image: radial-gradient(circle,  var(--text-color) 0%, var(--accent3) 50%);
     z-index: 10;
     background-size: 200% 100%; 
-    animation: navAnimation 3s linear infinite;
+    animation: navAnimation 5s linear infinite;
     border-radius: 50%;
   }
 

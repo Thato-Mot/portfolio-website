@@ -333,4 +333,12 @@
     left: 9.85%;
   }
 
+  .projects {
+    font-size: 13vw;
+    font-weight: 200;  
+    bottom: -17.2vw;
+    left: 5%;
+    transition: text-shadow 0.3s ease-in-out;
+  }
+
 }

@@ -181,7 +181,7 @@
       top: 25%;
       width: 41vw;
       height: max-content;
-      left: 6%;
+      left: 0%;
     }
     .aboutAbout{
       position: absolute;
@@ -247,7 +247,7 @@
       top: 0;
       width: 41vw;
       height: max-content;
-      left: 7%;
+      left: 4%;
     }
     .aboutTopText span{
       letter-spacing: 0.4vw;
@@ -258,15 +258,15 @@
     .aboutMe {
       position: absolute;
       font-size: 13vw;
-      top: 30%;
+      top: 31%;
       width: 41vw;
       height: max-content;
-      left: 6%;
+      left: 0.5%;
     }
     .aboutAbout{
       position: absolute;
       top: 50%;
-      left: 0.5%;
+      left: 1.7%;
       padding: 1vw;
       font-size: 3.2vw;
       text-align: left;
@@ -301,7 +301,7 @@
       font-size: 13vw;
       height: max-content;
       position: absolute;
-      bottom: -14%;
+      bottom: -14.5%;
       left: 6%;
     }
   }
@@ -321,6 +321,15 @@
       width: 41vw;
       height: max-content;
       left: 1%;
+    }
+    .aboutTopText{
+      /* border: 1px solid yellow;; */
+      position: absolute;
+      font-size: 6vw;
+      top: 0;
+      width: 41vw;
+      height: max-content;
+      left: 4%;
     }
   }
 

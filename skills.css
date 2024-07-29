@@ -129,7 +129,7 @@
 @media (max-width: 500px){
   .skillBox{
     width: 40vw;
-    height: 28vw;
+    height: 35vw;
     box-shadow: 0 0 2vw var(--accent1-glow);
   }
   
