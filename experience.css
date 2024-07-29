@@ -101,7 +101,7 @@
   font-weight: bold;
   color: var(--text-color);
   background-color: var(--accent1);
-  padding: 0.2vw 1vw;
+  padding: 0.4vw 1vw;
   border-radius: 5px;
 }
 
@@ -219,7 +219,7 @@
   .skill{
     font-size: 2.6vw;
     font-weight: bold;
-    padding: 0.2vw 1vw;
+    padding: 1vw 1vw;
     border-radius: 5px;
   }
 
@@ -341,7 +341,7 @@
   .skill{
     font-size: 3vw;
     font-weight: bold;
-    padding: 0.2vw 1vw;
+    padding: 1vw 1vw;
     border-radius: 5px;
   }
 
@@ -374,7 +374,6 @@
 @media (max-width: 400px){
   .skill{
     font-size: 2.5vw;
-
   }
 }
 

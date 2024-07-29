@@ -38,8 +38,8 @@
   opacity: 0.9;
   border-radius: 10px;
   padding: 2vw;
-  width: 25vw;
-  height: 10vw;
+  width: 26vw;
+  height: 12vw;
   color: var(--text-color2);
   box-shadow: 0 0 1vw var(--accent1-glow);
 }
@@ -85,8 +85,8 @@
     transition: text-shadow 0.3s ease-in-out;
   }
   .skillBox{
-    width: 40vw;
-    height: 23vw;
+    width: 42vw;
+    height: 27.5vw;
     box-shadow: 0 0 2vw var(--accent1-glow);
   }
   .skill-title{
@@ -108,7 +108,7 @@
 @media (max-width: 700px){
   .skillBox{
     width: 40vw;
-    height: 27vw;
+    height: 35vw;
     box-shadow: 0 0 2vw var(--accent1-glow);
   }
   .skill-title{
@@ -126,6 +126,11 @@
   }
 }
 
-@media (min-width: 500px){
+@media (max-width: 500px){
+  .skillBox{
+    width: 40vw;
+    height: 28vw;
+    box-shadow: 0 0 2vw var(--accent1-glow);
+  }
   
 }

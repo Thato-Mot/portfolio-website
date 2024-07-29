@@ -306,6 +306,24 @@
     }
   }
 
+  @media (max-width: 500px){
+    .experience {
+      font-size: 13vw;
+      height: max-content;
+      position: absolute;
+      bottom: -15%;
+      left: 6%;
+    }
+    .aboutMe {
+      position: absolute;
+      font-size: 13vw;
+      top: 31%;
+      width: 41vw;
+      height: max-content;
+      left: 1%;
+    }
+  }
+
   
   
   
