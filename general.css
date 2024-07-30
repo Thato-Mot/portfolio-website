@@ -17,16 +17,16 @@
 
 :root {
   /* Default Dark Charcoal-Burgundy-White ----- Default*/
-  --background: rgb(26, 26, 26);
-  --background-gradient: rgb(34, 34, 34);
-  --text-color: rgb(240, 240, 240);
-  --text-color2: rgb(26, 26, 26);
-  --accent1: rgb(128, 0, 32);
-  --accent2: rgb(150, 0, 38);
-  --accent3: rgb(180, 0, 45);
-  --accent1-glow: rgba(128, 0, 32, 0.8);
-  --cursor-gradient-start: rgba(128, 0, 32, 0.5); /* Light shade of accent1 */
-  --cursor-gradient-end: rgba(128, 0, 32, 0.1);   /* More transparent */
+  --background: rgb(20, 20, 20);
+  --background-gradient: rgb(30, 30, 30);
+  --text-color: rgb(255, 255, 255);
+  --text-color2: rgb(20, 20, 20);
+  --accent1: rgb(65, 105, 225);
+  --accent2: rgb(50, 90, 200);
+  --accent3: rgb(40, 70, 180);
+  --accent1-glow: rgba(65, 105, 225, 0.8);
+  --cursor-gradient-start: rgba(65, 105, 225, 0.5); /* Light blue shade */
+  --cursor-gradient-end: rgba(65, 105, 225, 0.1); /* More transparent */
   --navBar-angle: 90deg;
   --glass-background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255,255,255, 0));
   --glass-border: 1px solid rgba(255, 255, 255, 0.18);
