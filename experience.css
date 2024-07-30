@@ -18,15 +18,15 @@
   opacity: 0.9;
   border-radius: 10px;
   padding: 2vw;
-  width: 40vw;
-  height: 22vw;
+  width: 44vw;
+  height: 26vw;
   color: var(--text-color2);
   box-shadow: 0 0 1vw var(--accent1-glow);
   position: relative;
 }
 
 .tutoring{
-  height: 29vw;
+  height: 33vw;
 }
 
 .tutoring .boxDesc span{
@@ -136,14 +136,15 @@
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    padding-top: 2vw;
+    padding-top: 4vw;
     position: relative;
     top: 6vw;
+    margin-top: 2.6vw;
   }
   .boxExp{
     padding: 2vw;
-    width: 70vw;
-    height: 43vw;
+    width: 74vw;
+    height: 47vw;
     box-shadow: 0 0 2vw var(--accent1-glow);
     position: relative;
   }
@@ -261,13 +262,13 @@
   }
   .boxExp{
     padding: 2vw;
-    width: 86vw;
-    height: 50vw;
+    width: 90vw;
+    height: 54vw;
     box-shadow: 0 0 2vw var(--accent1-glow);
     position: relative;
   }
   .tutoring{
-    height: 68vw;
+    height: 72vw;
   }
 
   .tutoring .boxTitle::after{

@@ -39,7 +39,7 @@
   border-radius: 10px;
   padding: 2vw;
   width: 26vw;
-  height: 12vw;
+  height: 18vw;
   color: var(--text-color2);
   box-shadow: 0 0 1vw var(--accent1-glow);
 }
@@ -86,7 +86,7 @@
   }
   .skillBox{
     width: 42vw;
-    height: 27.5vw;
+    height: 38vw;
     box-shadow: 0 0 2vw var(--accent1-glow);
   }
   .skill-title{
@@ -107,8 +107,8 @@
 
 @media (max-width: 700px){
   .skillBox{
-    width: 40vw;
-    height: 35vw;
+    width: 44vw;
+    height: 40vw;
     box-shadow: 0 0 2vw var(--accent1-glow);
   }
   .skill-title{
@@ -128,8 +128,8 @@
 
 @media (max-width: 500px){
   .skillBox{
-    width: 40vw;
-    height: 35vw;
+    width: 44vw;
+    height: 40vw;
     box-shadow: 0 0 2vw var(--accent1-glow);
   }
   

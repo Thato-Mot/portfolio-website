@@ -106,7 +106,7 @@
     transition: color 200ms ease-in-out;
     position: relative;
     cursor: pointer;
-    margin-right: 1vw;
+    /* margin-right: 1vw; */
   }
   button:hover::after, button:hover::before{
     content: '';
