@@ -12,8 +12,7 @@
   top: -2vw;
 }
 
-.boxExp{
-  /* border: 1px solid yellow; */
+/* .boxExp{
   background-color: var(--text-color);
   opacity: 0.9;
   border-radius: 10px;
@@ -23,10 +22,27 @@
   color: var(--text-color2);
   box-shadow: 0 0 1vw var(--accent1-glow);
   position: relative;
+} */
+
+.boxExp{
+  /* border: 1px solid yellow; */
+  background: var(--glass-background);
+  opacity: 1;
+  border-radius: 10px;
+  border: var(--glass-border);
+  padding: 2vw;
+  width: 44vw;
+  height: 28vw;
+  color: var(--text-color1);
+  /* box-shadow: 0 0 1vw var(--accent1-glow); */
+  box-shadow: var(--glass-shadow);
+  position: relative;
 }
 
+
+
 .tutoring{
-  height: 33vw;
+  height: 37vw;
 }
 
 .tutoring .boxDesc span{
@@ -49,7 +65,7 @@
   content: '';
   width: 50%;
   height: 2px;
-  background-color: var(--text-color2);
+  background-color: var(--text-color1);
   position: absolute;
   top: 6.8vw;
   left: 7.1vw;
@@ -70,7 +86,7 @@
 
 .boxDesc{
   position: relative;
-  margin-top: 1.2vw;
+  margin-top: 3vw;
   font-size: 1.3vw;
   margin-bottom: 0.7vw;
 }
@@ -78,10 +94,12 @@
 .boxDesc::before{
   content: '';
   width: 100%;
-  height: 2px;
-  background-color: var(--text-color2);
+  height: 15px;
+  background-color: transparent;
+  box-shadow: var(--border-glass-shadow);
+  border-radius: 5px;
   position: absolute;
-  top: -0.5vw;
+  top: -2.3vw;
   left: 0vw;
 }
 
@@ -144,9 +162,21 @@
   .boxExp{
     padding: 2vw;
     width: 74vw;
-    height: 47vw;
-    box-shadow: 0 0 2vw var(--accent1-glow);
+    height: 48vw;
+    box-shadow: var(--glass-shadow);
     position: relative;
+  }
+
+  .boxDesc::before{
+    content: '';
+  width: 100%;
+  height: 15px;
+  background-color: transparent;
+  box-shadow: var(--border-glass-shadow);
+  border-radius: 5px;
+  position: absolute;
+  top: -2.3vw;
+  left: 0vw;
   }
   .tutoring{
     height: max-content;
@@ -155,8 +185,9 @@
   .tutoring .boxTitle::after{
     content: '';
     width: 80%;
-    height: 2px;
-    background-color: var(--text-color2);
+    height: 0px;
+    background-color: transparent;
+    box-shadow: var(--border-glass-shadow);
     position: absolute;
     top: 6vw;
     left: 10%;
@@ -189,7 +220,7 @@
   
   .boxPeriod{
     font-size: 2.3vw;
-    margin-bottom: 1.5vw;
+    margin-bottom: 3vw;
   }
 
   .boxDesc{
@@ -199,7 +230,7 @@
     margin-bottom: 1.5vw;
   }
 
-  .boxDesc::before{
+  /* .boxDesc::before{
     content: '';
     width: 100%;
     height: 2px;
@@ -207,7 +238,7 @@
     position: absolute;
     top: -0.75vw;
     left: 0vw;
-  }
+  } */
 
   .skillset {
     /* border: 1px solid rgb(0, 0, 0); */
@@ -264,23 +295,24 @@
     padding: 2vw;
     width: 90vw;
     height: 54vw;
-    box-shadow: 0 0 2vw var(--accent1-glow);
+    box-shadow: var(--glass-shadow);
     position: relative;
   }
   .tutoring{
     height: 72vw;
   }
 
-  .tutoring .boxTitle::after{
+  /* .tutoring .boxTitle::after{
     content: '';
     width: 80%;
-    height: 2px;
-    background-color: var(--text-color2);
+    height: 10px;
+    background-color: transparent;
+    box-shadow: var(--border-glass-shadow);
     position: absolute;
     top: 7vw;
     left: 10%;
 
-  }
+  } */
 
 
   .boxTitle{
@@ -313,7 +345,7 @@
 
   .boxDesc{
     position: relative;
-    margin-top: 1.2vw;
+    margin-top: 3vw;
     font-size: 3.3vw;
     margin-bottom: 1.5vw;
   }
@@ -321,10 +353,11 @@
   .boxDesc::before{
     content: '';
     width: 100%;
-    height: 2px;
-    background-color: var(--text-color2);
+    height: 10px;
+    background-color: transparent;
+    box-shadow: var(--border-glass-shadow);
     position: absolute;
-    top: -0.75vw;
+    top: -2.5vw;
     left: 0vw;
   }
 
@@ -372,9 +405,16 @@
   
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   .skill{
     font-size: 2.5vw;
+  }
+  .boxDesc::before{
+    height: 6px;
+    background-color: transparent;
+    box-shadow: var(--border-glass-shadow);
+    top: -2.4vw;
+    left: 0vw;
   }
 }
 

@@ -36,14 +36,15 @@
 
 .boxProj{
   /* border: 1px solid yellow; */
-  background-color: var(--text-color);
+  background: var(--glass-background);
   opacity: 0.9;
   border-radius: 10px;
   padding: 2vw;
   width: 44vw;
   height: 33vw;
-  color: var(--text-color2);
-  box-shadow: 0 0 1vw var(--accent1-glow);
+  color: var(--text-color1);
+  box-shadow: var(--glass-shadow);
+  border: var(--glass-border);
   display: flex;
   flex-direction: row;
   flex: 1 1 auto;
@@ -197,7 +198,7 @@
   .boxProj{
     width: 74vw;
     height: 76vw;
-    box-shadow: 0 0 2vw var(--accent1-glow);
+    box-shadow: var(--glass-shadow);
   }
 
   .projImageBox img {

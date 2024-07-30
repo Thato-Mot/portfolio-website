@@ -34,14 +34,15 @@
 }
 
 .skillBox{
-  background-color: var(--text-color);
+  background: var(--glass-background);
   opacity: 0.9;
   border-radius: 10px;
   padding: 2vw;
   width: 26vw;
   height: 18vw;
-  color: var(--text-color2);
-  box-shadow: 0 0 1vw var(--accent1-glow);
+  color: var(--text-color1);
+  box-shadow: var(--glass-shadow);
+  border: var(--glass-border)
 }
 .skill-title{
   font-size: 2vw;
@@ -53,8 +54,11 @@
 .skill-title::after{
   content: '';
     width: 100%;
-    height: 3px;
-    background-color: var(--text-color2);
+    height: 15px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: var(--border-glass-shadow);
+    /* background-color: var(--text-color2); */
     position: absolute;
     top: 2.3vw;
     left: 0vw;
@@ -87,7 +91,7 @@
   .skillBox{
     width: 42vw;
     height: 38vw;
-    box-shadow: 0 0 2vw var(--accent1-glow);
+    box-shadow: var(--glass-shadow);
   }
   .skill-title{
     font-size: 3vw;
@@ -96,8 +100,9 @@
   .skill-title::after{
     content: '';
       width: 100%;
-      height: 3px;
-      background-color: var(--text-color2);
+      height: 10px;
+      background-color: transparent;
+      box-shadow: var(--border-glass-shadow);
       position: absolute;
       top: 3.3vw;
       left: 0vw;
@@ -109,20 +114,25 @@
   .skillBox{
     width: 44vw;
     height: 40vw;
-    box-shadow: 0 0 2vw var(--accent1-glow);
+    box-shadow: var(--glass-shadow);
   }
   .skill-title{
     font-size: 4vw;
+    /* margin-bottom: 4vw; */
   }
   
   .skill-title::after{
     content: '';
       width: 100%;
-      height: 3px;
-      background-color: var(--text-color2);
+      height: 10px;
+      background-color: transparent;
+      box-shadow: var(--border-glass-shadow);
       position: absolute;
-      top: 4vw;
+      top: 5.3vw;
       left: 0vw;
+  }
+  .BoxSkill{
+    margin-top: 5vw;
   }
 }
 
@@ -130,7 +140,10 @@
   .skillBox{
     width: 44vw;
     height: 40vw;
-    box-shadow: 0 0 2vw var(--accent1-glow);
+    box-shadow: var(--glass-shadow);
+  }
+  .skill-title::after{
+    height: 7px;
   }
   
 }
