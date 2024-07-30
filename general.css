@@ -256,15 +256,15 @@
 
 #cursor {
   position: fixed;
-  width: 60vw;
-  height: 60vw;
+  width: 80vw;
+  height: 80vw;
   border-radius: 50%;
   background: radial-gradient(circle, 
               var(--cursor-gradient-start) 0%, 
               var(--cursor-gradient-end) 20%, 
               transparent 50%);
   pointer-events: none;
-  z-index: 9999;
+  z-index: -9999;
 }
 
 
@@ -277,9 +277,9 @@
 body{
   margin: 0;
   padding: 0;
-  background: linear-gradient(var(--background) 0%, var(--background) 60%, var(--background-gradient) 90%);
-  /* height: 100vh; */
-  cursor: auto; 
+  /* background: linear-gradient(var(--background) 0%, var(--background) 60%, var(--background-gradient) 90%); */
+  background-color: var(--background);
+  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");  cursor: auto; 
   overflow-x: hidden;
   color: var(--text-color);
   font-family: Blissful;
@@ -300,7 +300,7 @@ body{
   var(--cursor-gradient-end) 20%, 
   transparent 50%);
   pointer-events: none;
-  z-index: -100;
+  z-index: -10000;
 }
 main {
   width: 100%;
