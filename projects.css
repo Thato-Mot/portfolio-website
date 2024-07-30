@@ -169,6 +169,14 @@
   margin-top: 1vw;
 }
 
+.blur svg{
+  filter: blur(3px);
+}
+.blur {
+  position: absolute;
+  top: 80%;
+}
+
 @media (max-width: 1010px){
   #projects{  
     position: relative;
