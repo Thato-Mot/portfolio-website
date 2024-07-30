@@ -157,6 +157,14 @@
   width: 3vw;
   height: 3vw;
   fill: var(--accent1);
+  transition: width 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
+}
+
+#contact svg:hover {
+  width: 3.2vw;
+  height: 3.2vw;
+  fill: rgba(0, 0, 0, 0.673);
 }
 
 .icons{
@@ -172,6 +180,7 @@
 
 .blur svg{
   filter: blur(3px);
+  z-index: -999;
 }
 .blur {
   position: absolute;

@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   gap: 2vw;
-  padding-top: 2vw;
+  padding-top: 0vw;
   /* border: 1px solid yellow; */
   position: relative;
   top: -2vw;
@@ -157,7 +157,7 @@
     padding-top: 4vw;
     position: relative;
     top: 6vw;
-    margin-top: 2.6vw;
+    margin-top: 0vw;
   }
   .boxExp{
     padding: 2vw;
