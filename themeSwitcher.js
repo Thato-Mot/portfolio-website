@@ -30,7 +30,7 @@ function resetToDefaultTheme() {
 
 // Function to initialize the theme based on saved preference
 function initializeTheme() {
-  const savedTheme = localStorage.getItem('theme') || 'burgundy'; // Default to 'burgundy'
+  const savedTheme = localStorage.getItem('theme') || 'blue'; // Default to 'burgundy'
   currentIndex = themes.indexOf(savedTheme); // Set the current index based on saved theme
   document.documentElement.setAttribute('data-theme', savedTheme);
 }
