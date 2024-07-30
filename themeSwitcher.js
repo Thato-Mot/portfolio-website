@@ -1,6 +1,6 @@
 // Array of theme names, including the new colorful themes
 const themes = [
-  'burgundy', 'mint', 'blue', 'light', 
+   'blue','burgundy', 'mint', 'light', 
   'teal', 'purple', 'green', 'pink', 
   'orange', 'fresh-green', 
   'red', 'electric-blue', 'vibrant-purple', 
@@ -22,7 +22,7 @@ function switchTheme() {
 
 // Function to reset to the default theme
 function resetToDefaultTheme() {
-  const defaultTheme = 'burgundy'; // Set your default theme here
+  const defaultTheme = 'blue'; // Set your default theme here
   currentIndex = themes.indexOf(defaultTheme); // Find the index of the default theme
   document.documentElement.setAttribute('data-theme', defaultTheme);
   localStorage.setItem('theme', defaultTheme); // Save the default theme to localStorage

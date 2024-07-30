@@ -28,6 +28,7 @@
     color: var(--accent2);
   }
   
+  
   .sec:hover::after, .sec:hover::before, #name:hover::after, #name:hover::before{
     content: '';
     position: absolute;

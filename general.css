@@ -284,8 +284,7 @@ body{
   padding: 0;
   /* background: linear-gradient(var(--background) 0%, var(--background) 60%, var(--background-gradient) 90%); */
   background-color: var(--background);
-  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");  cursor: auto; 
-  overflow-x: hidden;
+  background-image: url("https://www.transparenttextures.com/patterns/pinstripe-light.png");  overflow-x: hidden;
   color: var(--text-color);
   font-family: Blissful;
   background-attachment: fixed;
