@@ -110,9 +110,9 @@
   justify-content: flex-end;
   align-items: center;
   padding: 0.1vw 0.5vw;
-  position: absolute;
-  bottom: 0.5vw;
-  left: 4.5%;
+  justify-content: center;
+  width: 100%;
+
 }
 
 
@@ -263,17 +263,9 @@
   }
 
   .ProjSkillset{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1vw;
-    /* border: 1px solid rgb(0, 0, 0); */
     height: 2.8vw;
-    justify-content: flex-end;
     align-items: center;
     padding: 0.1vw 0.5vw;
-    position: absolute;
-    bottom: 7.5%;
-    left: 10%;
   }
 
   .trap{
@@ -337,17 +329,7 @@
   }
 
   .ProjSkillset{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1vw;
-    /* border: 1px solid rgb(0, 0, 0); */
-    height: 2.8vw;
-    justify-content: flex-end;
-    align-items: center;
     padding: 0.1vw 0.5vw;
-    position: absolute;
-    top: 74%;
-    left: 8.3%;
   }
 
   .trap{
@@ -374,17 +356,8 @@
     height: 83vw;
   }
   .ProjSkillset{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1vw;
-    /* border: 1px solid rgb(0, 0, 0); */
     height: 2.8vw;
-    justify-content: flex-end;
-    align-items: center;
     padding: 0.5vw 0.5vw;
-    position: absolute;
-    top: 67%;
-    left: 7.5%;
   }
 
   .trap{

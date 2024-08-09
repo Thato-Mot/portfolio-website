@@ -280,7 +280,7 @@
   
     .lebitso::after{
       width: 66%;
-      height: 10px;
+      height: 15px;
       background-color: transparent;
       box-shadow: var(--border-glass-shadow);
       position: absolute;
@@ -310,7 +310,7 @@
       display: none;
     }
     .lebitso::after{
-      height: 5px;
+      height: 10px;
     }
     .second-half{
       justify-content: left;
