@@ -219,7 +219,9 @@
     margin-top: 22vw;
     flex-direction: column;
     gap: 2vw;
-    padding: 2vw;
+    padding: 0;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     margin-bottom: 1vw;
   }
   .projects {
@@ -231,8 +233,8 @@
   }
 
   .boxProj{
-    width: 74vw;
-    height: 76vw;
+    width: 90%;
+    height: max-content;
     box-shadow: var(--glass-shadow);
   }
 
@@ -270,13 +272,13 @@
     align-items: center;
     padding: 0.1vw 0.5vw;
     position: absolute;
-    top: 63%;
-    left: 7.7%;
+    bottom: 7.5%;
+    left: 10%;
   }
 
   .trap{
-    top: 61%;
-    left: 6.3%;
+    bottom: 9.5%;
+    left: 9.5%;
   }
 
   .contact{
@@ -306,7 +308,7 @@
 
   .boxProj{
     width: 89vw;
-    height: 75vw;
+    height: 80vw;
   }
 
   .projImageBox img {
@@ -344,12 +346,12 @@
     align-items: center;
     padding: 0.1vw 0.5vw;
     position: absolute;
-    top: 77%;
+    top: 74%;
     left: 8.3%;
   }
 
   .trap{
-    top: 78%;
+    top: 75%;
     left: 7.5%;
   }
 
