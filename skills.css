@@ -90,7 +90,7 @@
   }
   .skillBox{
     width: 42vw;
-    height: 38vw;
+    height: 35vw;
     box-shadow: var(--glass-shadow);
   }
   .skill-title{
@@ -113,7 +113,7 @@
 @media (max-width: 700px){
   .skillBox{
     width: 44vw;
-    height: 40vw;
+    height: 42vw;
     box-shadow: var(--glass-shadow);
   }
   .skill-title{

@@ -55,7 +55,7 @@
   border: var(--glass-border);
   padding: 2vw;
   width: 43.5vw;
-  height: 26vw;
+  height: 30vw;
   color: var(--text-color1);
   /* box-shadow: 0 0 1vw var(--accent1-glow); */
   box-shadow: var(--glass-shadow);
@@ -65,7 +65,7 @@
 
 
 .tutoring{
-  height: 33.5vw;
+  height: 44vw;
 }
 
 .tutoring .boxDesc span{
@@ -103,21 +103,21 @@
 }
 
 .boxPeriod{
-  font-size: 1.3vw;
+  font-size: 1.65vw;
   margin-bottom: 0.7vw;
 }
 
 .boxDesc{
   position: relative;
   margin-top: 2vw;
-  font-size: 1.3vw;
+  font-size: 1.65vw;
   margin-bottom: 0.7vw;
 }
 
 .boxDesc::before{
   content: '';
   width: 100%;
-  height: 15px;
+  height: 10px;
   background-color: transparent;
   box-shadow: var(--border-glass-shadow);
   border-radius: 5px;
@@ -135,6 +135,9 @@
   justify-content: flex-end;
   align-items: center;
   padding: 0.2vw 1vw;
+  position: absolute;
+  bottom: 1vw;
+  right: 1vw;
 }
 
 .skill{
@@ -236,13 +239,13 @@
   }
 
   .boxCompany{
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin-bottom: 0.7vw;
     text-align: center;
   }
   
   .boxPeriod{
-    font-size: 2.3vw;
+    font-size: 3vw;
     margin-bottom: 3vw;
   }
 
@@ -269,8 +272,7 @@
     justify-content: flex-end;
     align-items: center;
     padding: 0.2vw 1vw;
-    position: relative;
-    bottom: -2vw;
+    bottom: 2vw;
   }
   
   .skill{
@@ -358,7 +360,7 @@
   }
   
   .boxPeriod{
-    font-size: 2.7vw;
+    font-size: 3vw;
     margin-bottom: 1.5vw;
   }
 
