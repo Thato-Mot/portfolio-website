@@ -251,12 +251,12 @@
     }
 
     .aboutMe {
-      font-size: 13vw;
-      left: -29vw;
+      font-size: 18vw;
+      left: -24vw;
       position: relative;
     }
     .aboutAbout{
-      padding: 1vw;
+      padding: 3vw;
       font-size: 3vw;
       text-align: left;
       width: 100%;
@@ -318,7 +318,7 @@
     }
     .aboutMe{
       position: relative;
-      left: -30vw;
+      left: -25vw;
     }
 
     
@@ -328,7 +328,7 @@
     
     .aboutMe {
 
-      font-size: 13vw;
+      left: -24vw;
   
     }
    

@@ -223,9 +223,9 @@
     margin-bottom: 1vw;
   }
   .projects {
-    font-size: 13vw;
+    font-size: 18vw;
     font-weight: 200;  
-    bottom: -18vw;
+    bottom: -19vw;
     left: 5%;
     transition: text-shadow 0.3s ease-in-out;
   }
@@ -280,7 +280,7 @@
   }
 
   .contact{
-    font-size: 13vw;
+    font-size: 18vw;
     width: max-content;
     margin-left: 2vw;
   }
@@ -295,12 +295,11 @@
 
 @media (max-width: 700px){
   #projects{  
-    margin-top: 22vw;
+    margin-top: 26vw;
   }
   .projects {
-    font-size: 13vw;
     font-weight: 200;  
-    bottom: -18vw;
+    bottom: -20vw;
     left: 5%;
     transition: text-shadow 0.3s ease-in-out;
   }
@@ -392,9 +391,9 @@
   }
 
   .projects {
-    font-size: 13vw;
+    /* font-size: 13vw; */
     font-weight: 200;  
-    bottom: -17.2vw;
+    bottom: -22vw;
     left: 5%;
     transition: text-shadow 0.3s ease-in-out;
   }

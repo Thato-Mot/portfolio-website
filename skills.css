@@ -76,15 +76,15 @@
 
 @media (max-width: 1010px){
   #skills{
-    margin-top: 14vw;
+    margin-top: 18vw;
     flex: 1 1;
   }
 
   .skills{
     
-    font-size: 13vw;
+    font-size: 18vw;
     position: absolute;
-    bottom: -15vw;
+    bottom: -19vw;
     left: 5%;
     transition: text-shadow 0.3s ease-in-out;
   }

@@ -177,14 +177,14 @@
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    padding-top: 4vw;
+    padding-top: 10vw;
     position: relative;
     top: 6vw;
     margin-top: 0vw;
   }
   .boxExp{
     padding: 2vw;
-    width: 74vw;
+    width: 90%;
     height: 48vw;
     box-shadow: var(--glass-shadow);
     position: relative;
@@ -202,7 +202,7 @@
   left: 0vw;
   }
   .tutoring{
-    height: max-content;
+    height: 70vw;
   }
 
   .tutoring .boxTitle::after{
@@ -269,6 +269,8 @@
     justify-content: flex-end;
     align-items: center;
     padding: 0.2vw 1vw;
+    position: relative;
+    bottom: -2vw;
   }
   
   .skill{
@@ -302,7 +304,7 @@
   }
   
   .experience {
-    font-size: 13vw;
+    font-size: 18vw;
     height: max-content;
     position: absolute;
     top: -12vw;
@@ -319,7 +321,7 @@
     gap: 2vw;
     padding-top: 13vw;
     position: relative;
-    top: 4vw;
+    top: 8vw;
   }
   .boxExp{
     padding: 2vw;
@@ -331,19 +333,6 @@
   .tutoring{
     height: 72vw;
   }
-
-  /* .tutoring .boxTitle::after{
-    content: '';
-    width: 80%;
-    height: 10px;
-    background-color: transparent;
-    box-shadow: var(--border-glass-shadow);
-    position: absolute;
-    top: 7vw;
-    left: 10%;
-
-  } */
-
 
   .boxTitle{
     font-size: 6vw;
@@ -376,7 +365,7 @@
   .boxDesc{
     position: relative;
     margin-top: 3vw;
-    font-size: 3.3vw;
+    /* font-size: 3.3vw; */
     margin-bottom: 1.5vw;
   }
 
@@ -432,16 +421,22 @@
     
   }
   .experience {
-    font-size: 13vw;
+    /* font-size: 13vw; */
     height: max-content;
     position: absolute;
-    top: -4vw;
+    top: -9vw;
     left: 5%;
   }
   
 }
 
 @media (max-width: 500px){
+  #experience {
+    gap: 2vw;
+    padding-top: 20vw;
+    position: relative;
+    top: 4vw;
+  }
   .skill{
     font-size: 2.5vw;
   }
@@ -453,10 +448,10 @@
     left: 0vw;
   }
   .experience {
-    font-size: 13vw;
+    /* font-size: 13vw; */
     height: max-content;
     position: absolute;
-    bottom: -20%;
+    top: -5vw;
     left: 6%;
   }
 }
