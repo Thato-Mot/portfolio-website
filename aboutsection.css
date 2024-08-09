@@ -1,25 +1,27 @@
   #about {
-    border: none;
+    /* border: 1px solid yellow; */
     display: flex;
-    width: 100%;
-    height: 100vw;
+    height: 130svh;
     position: relative;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    margin-top: 1vw;
+    justify-content: end;
   }
 
   .aboutimage{
     /* border: yellow solid 1px; */
-    width: 50vw;
-    height: 50vw;
+    width: 40vw;
+    height: 40vw;
+    margin-top: 2vh;
     border-radius: 10px;
-    position: absolute;
-    top: 1vw;
-    right: 1vw;
+    justify-content: center;
     z-index: 0;
     padding: 0.5vw;
     background-color: var(--accent2);
     box-shadow: 0 0 1vw var(--accent1);
     transition: box-shadow 0.3s ease-in-out;
-
+    position: relative;
   }
   .aboutimage:hover{
     box-shadow: 0 0 2vw var(--accent1);
@@ -56,10 +58,6 @@
     transform: scale(0.8);
   }
 
-
-
-  
-
   .aboutIMG{
     width: 100%;
     border-radius: 10px;
@@ -75,12 +73,13 @@
     font-weight: bold;
     background: transparent;
     text-align: center;
-    top: 10%;
+    top: 54%;
     width: 41vw;
     height: max-content;
-    left: 17%;
+    left: 55%;
     color: var(--text-color);
     z-index: 1;
+    text-shadow: -0.5vw 0.5vw 0.7vw var(--accent1);
   }
 
   .aboutTopText span{
@@ -114,10 +113,10 @@
     font-weight: 200;
     background: transparent;
     text-align: center;
-    top: 32%;
+    top: 0%;
     width: 41vw;
     height: max-content;
-    left: -6%;
+    left: 5.5%;
     color: var(--text-color);
     text-shadow: -0.8vw 0.8vw 0.4vw var(--accent1);
     font-family: Monday Champions, Painter Personal Use Only;
@@ -136,24 +135,29 @@
     box-shadow: var(--glass-shadow);
     border-radius: 10px;
     padding: 1vw;
+    padding-top: 2vw;
     text-wrap: pretty;
-    font-size: 2vw;
+    font-size: 1.65vw;
     font-weight: bold;
-    text-align: center;
-    top: 46%;
-    width: 45vw;
+    text-align: left;
+    top: 22%;
+    width: 46vw;
     height: max-content;
-    left: 20%;
+    left: 4%;
     color: var(--text-color);
     font-weight: 100;
   }
 
   .aboutAbout .greeting{
-    display: block;
     font-family: Monday Champions, Painter Personal Use Only;
     font-size: 4vw;
     font-weight: 100;
     transform: rotate(-5deg);
+    /* border: 1px solid yellow; */
+    position: relative;
+    top: -1vw;
+    display: flex;
+    justify-content: center;
   }
 
   .aboutAbout .lebitso{
@@ -165,38 +169,19 @@
     
   }
 
-  .aboutAbout .lebitso::after{
+  .lebitso::after{
     content: '';
-    width: 50%;
-    height: 10px;
+    width: 100%;
+    height: 20px;
     background-color: transparent;
     box-shadow: var(--border-glass-shadow);
     border-radius: 5px;
     position: absolute;
     top: 4.5vw;
-    left: 11.5vw;
+    left: 0%;
   }
 
-  .experience {
-    font-size: 12vw;
-    font-weight: 200;  
-    background: transparent;
-    text-align: left;
-    height: max-content;
-    color: var(--text-color);
-    text-shadow: -0.8vw 0.8vw 0.4vw var(--accent1);
-    font-family: Monday Champions, Painter Personal Use Only;
-    transform: rotate(-5deg);
-    position: absolute;
-    bottom: 2%;
-    left: 2%;
-    transition: text-shadow 0.3s ease-in-out;
-  }
 
-  .experience:hover{
-    
-    text-shadow: 0vw 0vw 0.4vw var(--accent1);
-  }
 
   @media (max-width: 1010px){
     .aboutimage{
@@ -262,14 +247,7 @@
       top: 5.5vw;
       left: 0vw;
     }
-    .experience {
-      font-size: 13vw;
-      height: max-content;
-      position: absolute;
-      bottom: -8.5%;
-      left: 5%;
-      transition: text-shadow 0.3s ease-in-out;
-    }
+    
 
     
   }
@@ -339,23 +317,11 @@
       top: 5.5vw;
       left: 0vw;
     }
-    .experience {
-      font-size: 13vw;
-      height: max-content;
-      position: absolute;
-      bottom: -20%;
-      left: 5%;
-    }
+    
   }
 
   @media (max-width: 500px){
-    .experience {
-      font-size: 13vw;
-      height: max-content;
-      position: absolute;
-      bottom: -20%;
-      left: 6%;
-    }
+    
     .aboutMe {
       position: absolute;
       font-size: 13vw;
