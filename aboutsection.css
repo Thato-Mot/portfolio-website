@@ -8,7 +8,7 @@
     margin-top: 1vw;
     margin-bottom: 1vw;
     justify-items: left;
-    column-gap: 2vw;
+    column-gap: 5vw;
   }
   .first-half{
     position: relative;
@@ -36,6 +36,7 @@
     box-shadow: 0 0 1vw var(--accent1);
     transition: box-shadow 0.3s ease-in-out;
     position: relative;
+    margin-top: 3vw;
   }
   .aboutimage:hover{
     box-shadow: 0 0 2vw var(--accent1);
