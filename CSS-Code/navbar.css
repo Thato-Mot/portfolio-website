@@ -132,7 +132,20 @@
   }
 
 @media (max-width: 1010px){
-  
+  .sec:hover::after, .sec:hover::before, #name:hover::after, #name:hover::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-image: radial-gradient(circle,  var(--text-color) 0%, var(--accent3) 50%);
+    z-index: 10;
+    background-size: 200% 100%; 
+    animation: navAnimation 3s linear infinite;
+    border-radius: 50%;
+    display: none;
+  }
   
   #nav-bar{
     /* border: 2px solid rgba(255, 255, 255); */
@@ -154,7 +167,7 @@
     padding-top: 1vw;
     padding-bottom: 1vw;
     width: 100svw;
-    height: max-content;
+    height: 8vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
