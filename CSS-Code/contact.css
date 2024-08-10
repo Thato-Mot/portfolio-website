@@ -10,6 +10,9 @@
   margin-bottom: 5vw;
 }
 
+.contact-tab{
+  text-shadow: 0 1vw 0.5vw var(--accent1);
+}
 
 .contact {
   font-size: 12vw;
