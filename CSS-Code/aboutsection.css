@@ -295,6 +295,10 @@ main{
       grid-template-columns: 1fr;
       grid-auto-flow: dense;
     }
+    .about{
+      color: var(--accent1);
+      text-shadow: none;
+    }
 
     #interests{
       display: flex;

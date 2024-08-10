@@ -263,6 +263,11 @@ ul{
     padding: 1vw 1vw;
     border-radius: 5px;
   }
+
+  .project{
+    text-shadow: none;
+    color: var(--accent1)
+  }
   #projects{  
     position: relative;
     margin-top: 0vw;

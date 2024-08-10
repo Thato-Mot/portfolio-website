@@ -102,6 +102,10 @@ button:hover {
 }
 
 @media (max-width: 1010px) {
+  .contact-tab{
+    text-shadow: none;
+    color: var(--accent1)
+  }
   .contact {
     font-size: 18vw;
   }

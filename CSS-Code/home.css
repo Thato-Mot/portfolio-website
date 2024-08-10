@@ -221,6 +221,10 @@
     grid-template-columns: 1fr;
     grid-auto-flow: dense;
   }
+  .home{
+    color: var(--accent1);
+    text-shadow: none;
+  }
 
   #about > *:nth-child(1) { order: 2; } 
   #about > *:nth-child(2) { order: 1; }

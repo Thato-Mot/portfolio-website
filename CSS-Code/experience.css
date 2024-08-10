@@ -185,6 +185,10 @@
     position: relative;
     top: -8vw;
   }
+  .resume-tab{
+    text-shadow: none;
+    color: var(--accent1);
+  }
   #experience {
     display: flex;
     flex-direction: column;
