@@ -227,7 +227,7 @@ ul{
   text-decoration-line: none;
   text-align: center;
   width: max-content;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   padding: 10%;
   border-radius: 5px;
   z-index: 5000;

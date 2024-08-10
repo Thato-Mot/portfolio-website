@@ -162,7 +162,7 @@
   }
   
   .tabs{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     background-color: var(--text-color);
     padding-top: 1vw;
     padding-bottom: 1vw;
