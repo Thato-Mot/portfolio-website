@@ -4,6 +4,15 @@ const textElement = document.getElementById('name');
 const textToType = "Thatohatsi Motlhamme";
 let index = 0;
 
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loading");
+  loader.classList.add("loading-hidden");
+  loader.addEventListener("transitionend", () => {
+document.body.removeChild("loading")
+  }
+  )
+})
+
 function typeText() {
   if (index < textToType.length) {
     textElement.textContent += textToType.charAt(index);
