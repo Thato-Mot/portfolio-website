@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 13vw;
+  /* margin-top: 13vw; */
   padding: 1vw;
   /* gap: 3vw; */
   row-gap: 2vw;
@@ -23,9 +23,9 @@
   text-shadow: -0.8vw 0.8vw 0.4vw var(--accent1);
   font-family: Monday Champions, Painter Personal Use Only;
   transform: rotate(-5deg);
-  position: absolute;
+  /* position: absolute;
   bottom: -14vw;
-  left: 2%;
+  left: 2%; */
   transition: text-shadow 0.3s ease-in-out;
 }
 
@@ -54,13 +54,13 @@
 .skill-title::after{
   content: '';
     width: 100%;
-    height: 15px;
+    height: 10px;
     background-color: transparent;
     border-radius: 5px;
     box-shadow: var(--border-glass-shadow);
     /* background-color: var(--text-color2); */
     position: absolute;
-    top: 2.3vw;
+    bottom: -1vw;
     left: 0vw;
 }
 
@@ -76,21 +76,23 @@
 
 @media (max-width: 1010px){
   #skills{
-    margin-top: 18vw;
+    margin-top: 4vw;
     flex: 1 1;
   }
+  
+.BoxSkill{
+  margin-top: 3vw;
+}
 
   .skills{
     
     font-size: 18vw;
-    position: absolute;
-    bottom: -19vw;
-    left: 5%;
+    text-align: center;
     transition: text-shadow 0.3s ease-in-out;
   }
   .skillBox{
     width: 42vw;
-    height: 35vw;
+    height: 38vw;
     box-shadow: var(--glass-shadow);
   }
   .skill-title{
@@ -100,11 +102,11 @@
   .skill-title::after{
     content: '';
       width: 100%;
-      height: 10px;
+      height: 8px;
       background-color: transparent;
       box-shadow: var(--border-glass-shadow);
       position: absolute;
-      top: 3.3vw;
+      bottom: -1.7vw;
       left: 0vw;
   }
   
@@ -113,22 +115,23 @@
 @media (max-width: 700px){
   .skillBox{
     width: 44vw;
-    height: 42vw;
+    height: 50vw;
+    
     box-shadow: var(--glass-shadow);
   }
   .skill-title{
-    font-size: 4vw;
+    font-size: 5vw;
     /* margin-bottom: 4vw; */
   }
   
   .skill-title::after{
     content: '';
       width: 100%;
-      height: 10px;
+      height: 8px;
       background-color: transparent;
       box-shadow: var(--border-glass-shadow);
       position: absolute;
-      top: 5.3vw;
+      bottom:-2vw;
       left: 0vw;
   }
   .BoxSkill{

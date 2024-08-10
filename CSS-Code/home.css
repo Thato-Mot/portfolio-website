@@ -11,6 +11,10 @@
   column-gap: 0vw;
   height: max-content;
 }
+
+.home{
+  text-shadow: 0 1vw 0.5vw var(--accent1);
+}
 .first-half{
   position: relative;
   /* border: 1px solid rgb(234, 0, 255); */
