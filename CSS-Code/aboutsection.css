@@ -253,7 +253,7 @@
 
     .aboutMe {
       font-size: 18vw;
-      left: -24vw;
+      /* left: -24vw; */
       position: relative;
     }
     .aboutAbout{
@@ -319,7 +319,7 @@
     }
     .aboutMe{
       position: relative;
-      left: -25vw;
+      /* left: -25vw; */
     }
 
     
@@ -327,12 +327,7 @@
 
   @media (max-width: 500px){
     
-    .aboutMe {
-
-      left: -24vw;
-  
-    }
-   
+    
   }
 
   
