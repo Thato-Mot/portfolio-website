@@ -60,6 +60,7 @@ ul{
   flex: 1 1 auto;
   position: relative;
   padding-bottom: 4vw;
+  margin-bottom: 3vw;
 }
 
 .projImageBox {
@@ -368,9 +369,7 @@ ul{
     padding: 1vw 1vw;
     border-radius: 5px;
   }
-  #projects{
-    /* margin-top: 4vw; */
-  }
+
 
   .projTitle {
     font-size: 5vw;

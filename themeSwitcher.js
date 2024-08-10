@@ -1,10 +1,14 @@
 // Array of theme names, including the new colorful themes
+// const themes = [
+//    'blue','burgundy', 'mint', 'light', 
+//   'teal', 'purple', 'green', 'pink', 
+//   'orange', 'fresh-green', 
+//   'red', 'electric-blue', 'vibrant-purple', 
+//   'yellow', 'cyan', 'lively-green'
+// ];
 const themes = [
-   'blue','burgundy', 'mint', 'light', 
-  'teal', 'purple', 'green', 'pink', 
-  'orange', 'fresh-green', 
-  'red', 'electric-blue', 'vibrant-purple', 
-  'yellow', 'cyan', 'lively-green'
+  'blue', 
+ 'light',
 ];
 
 let currentIndex = 0; // Start with the first theme

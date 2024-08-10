@@ -2,7 +2,7 @@
   
 footer {
   /* border: 2px var(--text-color) solid; */
-  background-color: var(--text-color);
+  background-color: white;
   color: black;
   font-size: 1.5vw;
   padding: 0;
