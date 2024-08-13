@@ -61,6 +61,16 @@ main{
     column-gap: 5vw;
   }
 
+  .values{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid rgb(255, 223, 0); */
+    
+  }
+
   .description-half{
     display: flex;
     flex-direction: column;
@@ -264,6 +274,10 @@ main{
     position: relative;
     top: -1.5vw;
     
+  }
+
+  .values-description{
+    width: 100%;
   }
 
   .lebitso::after{
