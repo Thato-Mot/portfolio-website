@@ -82,6 +82,7 @@
     /* transform: rotate(-5deg); */
     position: relative;
     /* left: -2vw; */
+    /* border-bottom: 1vw solid var(--accent1); */
 
   }
   

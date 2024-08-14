@@ -10,6 +10,7 @@
     position: relative;
     margin-bottom: 20px;
     margin-top: 10px;
+    /* border-bottom: 1dvh solid var(--accent1); */
   }
   
   .tabs{
