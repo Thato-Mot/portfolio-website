@@ -37,11 +37,11 @@
   width: 50%;
   margin-top: 2vw;
   padding: 1vw;
-  background: var(--glass-background); 
+  background: white; 
   backdrop-filter: blur(10px); 
   border-radius: 10px; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 1px solid var(--accent1);
+  border: 0.2vw solid var(--accent1);
 }
 .icon {
   width: 3vw;
@@ -75,10 +75,11 @@ label {
 input, textarea {
   padding: 1vw;
   font-size: 1.5vw;
-  border: 1px solid var(--accent1);
+  border: 0.2vw solid var(--accent1);
   border-radius: 5px;
-  background: var(--glass-background);
-  color: var(--text-color1);
+  background: white;
+  color: black;;
+  font-family: Blissful;
 }
 
 textarea {
