@@ -14,17 +14,13 @@
 
 .XP{
   display: flex;
-  flex-direction: row;
-  flex: 1 1;
+  flex-direction: row; /* row is the x axis and column is the y axis*/
+  flex: 1 1; /* to set how many you want*/
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 2vw;
-  padding-bottom: 0;
-  /* border: 1px solid yellow; */
-  /* position: relative;
-  top: -2vw; */
-  
+  justify-content: center; /*to center it on the y*/
+  align-items: center; /*to center it on the x*/
+  gap: 2vw; /*gap between them*/
+  padding-bottom: 0;  
   position: relative;
 }
 

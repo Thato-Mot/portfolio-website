@@ -36,7 +36,7 @@
   align-items: center;
   width: 50%;
   margin-top: 2vw;
-  padding: 1vw;
+  padding: 0.8vw;
   background: white; 
   backdrop-filter: blur(10px); 
   border-radius: 10px; 
@@ -44,15 +44,12 @@
   border: 0.2vw solid var(--accent1);
 }
 .icon {
-  width: 3vw;
-  height: 3vw;
+  width: 2.5vw;
+  height: 2.5vw;
   transition: transform 0.3s ease-in-out;
 }
 
-.cv1{
-  width: 3vw;
-  height: 3vw;
-}
+
 
 .icon:hover {
   transform: scale(1.1);
