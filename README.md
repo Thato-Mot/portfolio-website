@@ -1,4 +1,4 @@
-# Portfolio Website - GitHub
+# Portfolio Website 👑😊
 
 Welcome to my personal portfolio website! This repository contains the source code and content for my portfolio, which highlights my academic achievements, projects, technical skills, and experience.
 
@@ -23,7 +23,7 @@ The website includes:
 
 - **HTML/CSS**: Structure and styling of the website.
 - **JavaScript**: Interactive features and dynamic content.
-- **Python**: Backend support for data-driven content (if applicable).
+- **Python**: Backend support for data-driven content.
 - **GitHub Pages**: Hosting the website directly from this repository.
 
 ## Installation
