@@ -102,6 +102,15 @@ ul{
   flex-direction:column;
   align-items: flex-end;
 }
+
+.starter-circuit{
+  background-image: url(3000x\ -\ Made\ with\ Clipchamp.gif);
+
+  display: flex;
+  justify-content:flex-end;
+  flex-direction:column;
+  align-items: flex-end;
+}
 .projImageBox img {
   width: 100%;
   height: auto;
